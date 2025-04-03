@@ -18,15 +18,15 @@ section{
 .top-section span{
     color: orange;
 }
-.top .top-section{
+.top-section{
     width: 45%;
     margin-top: 50px;
     float: left;
 }
-.top .top-section:last-child{
+.top-section:last-child{
     float: right;
 }
-.top .top-section img{
+.top-section img{
     width: 100%;
 }
 .top h1{
@@ -44,4 +44,61 @@ section{
     color: white;
     background-image: linear-gradient(lightsalmon, tomato);
     border-radius: 5px;
+}
+.dream-area{
+    width: 100%;
+    padding: 0 10%;
+    background-image: url("../images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-area h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.dream-area h3{
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+p{
+    color: #888;
+}
+.experience{
+    width: 100%;
+    padding: 0 10%;
+    background-image: url("");
+}
+.experience h2{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+
+}
+.experience .top-section{
+    margin:20px 0;
+    height: 50%;
+    padding: 20px;
+    padding-top: 50px;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px #888;
+}
+.experience .top-section:last-child{
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+.experience h3{
+    color: orange;
+    margin-top: 20px;
+}
+.experience p{
+    color: #888;
+    margin-top: 20px;
+}
+.footer p{
+    text-align: center;
+    font-size: 12px;
 }
